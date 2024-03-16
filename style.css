@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Avenir Next';
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation {
+    width: 1036px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;   
+}
+
+nav img {
+    width: 46px;
+    height: 46px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper {
+    width: 1036px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#firstview {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.fv-box {
+    width: 100%;
+    height: 730px;
+    background-image: url('images/fv1.png');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.rotate-90 {
+    font-size: 120px;
+    position: absolute;
+    font-weight: 700;
+    transform: rotate(270deg);
+    transform-origin: 100% 0;
+    right: 150px;
+    color: #ffffff;
+}
+
+.left-bottom {
+    font-size: 64px;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px #ffffff;
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 27px 47px;
+}
+
+.left-bottom span {
+    color: #ffffff;
+}
+
+#about {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_right {
+    position: absolute;
+    bottom: -200%;
+    right: -100%;
+    z-index: -1;
+}
+
+.position-box {
+    position: relative;
+    height: 800px;
+}
+
+h2 {
+    font-weight: 400;
+    color: #E95A8D;
+}
+
+.pos {
+    font-size: 160px;
+    position: absolute;
+}
+
+.stroke {
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px #ffffff;
+    z-index: 3;
+}
+
+#about img {
+    padding-top: 130px;
+    position: absolute;
+    right: 0;
+    width: 849px;
+    right: 0;
+}
+
+#about p {
+    font-family: 'Yu Gothic Medium';
+    line-height: 2;
+    position: absolute;
+    display: inline-block;
+    padding: 30px;
+    bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+#activity {
+    margin-top: 124px;
+    display: flex;
+    justify-content: center;
+}
+
+#activity h2 {
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px #E95A8D;
+    font-size: 128px;
+}
+
+.box {
+    margin-bottom: 104px;
+}
+
+.right-text {
+    text-align: end;
+}
+
+.activity {
+    display: flex;
+}
+
+
+.act {
+    position: relative;
+    margin-right: 8px;
+}
+
+.act h3 {
+    position: absolute;
+    font-size: 64px;
+    font-weight: 400;
+    top: 100px;
+}
+
+.pink {
+    z-index: -1;
+    color: #E95A8D;
+}
+
+.white-box {
+    overflow: hidden;
+    margin-left: 140px;
+    position: relative;
+}
+
+.white {
+    color: #ffffff;
+    left: -140px;
+}
+
+.side-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-1 {
+    margin-bottom: 8px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .act {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.reverse h3 {
+    text-align: right;
+}
+
+.reverse .pink {
+    right: 0;
+}
+
+.white-box-reverse {
+    margin-left: 0;
+    margin-right: 140px;
+}
+
+.white-reverse {
+    right: -140px;
+}
+
+.logo_left {
+    position: absolute;
+    bottom: -110%;
+    left: -20%;
+    z-index: -1;
+}
+
+#features {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.feature h2{
+    font-size: 128px;
+    position: absolute;
+    font-weight: 700;
+    transform: rotate(90deg);
+    transform-origin: 0 100%;
+    left: 0;
+    top: -37%;
+}
+.slider {
+    margin-left: 175px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-box {
+    column-gap: 10px;
+    font-family: 'Yu Gothic Medium';
+    width: 488px;
+    padding-left: 8px;
+}
+
+.slide-box h3 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: -1.5px;
+    font-family: 'Yu Gothic Medium';
+}
+
+
+#info {
+    margin-top: 124px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 920px;
+    margin-top: 200px;
+}
+
+.head {
+    display: flex;
+    color: #E95A8D;
+    position: absolute;
+    top: 0;
+}
+
+.circle-text {
+	position:relative;
+	width: 300px; /* 直径 */
+	height: 300px; /* 直径 */
+	font-size: 128px;
+	text-align: center;
+	margin: 0;
+	transform: rotate(-80deg); /* 円の回転 */
+}
+
+.circle-text span {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 64px); /* 中心点、、文字サイズ分ずらす */
+	display: inline-block;
+	width: 30px; /* 文字サイズより小さくしない */
+	height: 300px; /* 半径 */
+	transform-origin: center bottom; /* 回転の基準点 */
+}
+
+.circle-text span:nth-child(1) {
+	transform: rotate(-5deg);
+}
+
+.circle-text span:nth-child(2) {
+	transform: rotate(10deg);
+}
+
+.circle-text span:nth-child(3) {
+	transform: rotate(35deg);
+}
+
+.circle-text span:nth-child(4) {
+	transform: rotate(50deg);
+}
+
+.circle-text span:nth-child(5) {
+	transform: rotate(75deg);
+}
+
+.left {
+    font-size: 128px;
+    margin: -80px;
+    margin-left: 16px;
+    padding: 0;
+}
+
+.events {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    row-gap: 10px;
+    left: 15vw;
+    top: 20%;
+}
+
+.event p {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.event {
+    display: flex;
+    column-gap: 92px;
+    justify-content: left;
+    width: 620px;
+}
+
+.date {
+    width: 144px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button p {
+    font-size: 180px;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px #FCC8D7;
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 32px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 84px;
+    background-color: #E95A8D;
+    border-radius: 10px;
+}
+
+
+footer {
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+    background-color: #FCC8D7;
+    font-family: 'Yu Gothic Medium';
+}
+
+h4 {
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+footer .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sns {
+    display: flex;
+    column-gap: 12px;
+}
+
+.sns img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.right-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    letter-spacing: -1px;
+}
+
+.detail {
+    display: flex;
+    column-gap: 32px;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#copy {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
