@@ -17,56 +17,85 @@
             <div class="nav-wrapper">
                 <div class="navigation">
                     <img src="images/logo_transparent.png" alt="">
-                    <ul>
+                    <button class="hamburger-menu sp" id="js-hamburger-menu">
+                        <span class="hamburger-menu__bar sp"></span>
+                        <span class="hamburger-menu__bar sp"></span>
+                        <span class="hamburger-menu__bar sp"></span>
+                    </button>
+                    
+                    <ul class="ul">
                         <li><a href="#about">About us</a></li>
                         <li><a href="#activity">Activities</a></li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#info">Information</a></li>
                     </ul>
+
+
                 </div>
             </div>
         </nav>
     </header>
 
     <section id="firstview">
-        <div class="wrapper">
-            <div class="fv-box">
-                <p class="rotate-90">petit caprice</p>
-                <p class="left-bottom">大学生活を<br><span>Dance</span>で彩る</p>
+        <!--PC-->
+        <div class="wrapper pc">
+            <div class="fv-box pc">
+                <p class="rotate-90 pc">petit caprice</p>
+                <p class="left-bottom pc">大学生活を<br><span>Dance</span>で彩る</p>
             </div>
+        </div>
+        <!--SP-->
+        <div class="fv-sp-wrapper sp">
+            <div class="sp-wrapper sp">
+                <img class="fv-sp sp" src="images/sp-fv.png" alt="">
+                <p class="sp fv-text-1">Kyoto Univ</p>
+                <p class="sp fv-text-2">PetitCaprice</p>
+            </div>
+            <div class="sp bg-pink"></div>
         </div>
     </section>
     <section id="about">
-        <div class="wrapper">
-            <div class="position-box">
-                <h2 class="color pos">About us</h2>
-                <h2 class="stroke pos">About us</h2>
-                <img src="images/about.jpg" alt="">
-                <p>PetitCaprice（プティカプリス）<br>
+        <!--PC-->
+        <div class="wrapper pc">
+            <div class="position-box pc">
+                <h2 class="color pos pc">About us</h2>
+                <h2 class="stroke pos pc">About us</h2>
+                <img src="images/about.jpg" alt="" class="pc">
+                <p class="pc">PetitCaprice（プティカプリス）<br>
                 京都大学のダンスサークルです。メンバーは全員京大女子で20名程度！<br>
                 洋楽HipHopからK-popまで、幅広いジャンルを踊ります。</p>
             </div>
         </div>
-        <img class="logo_right" src="images/logo_pink.png" alt="">
+        <!--SP-->
+        <div class="sp-wrapper sp">
+            <h2 class="sp">About us</h2>
+            <img src="images/sp-about.png" alt="" class="sp about-img-sp">
+            <p class="sp">PetitCaprice（プティカプリス）<br><br>
+                京都大学のダンスサークルです。メンバーは全員京大女子で20名程度！<br>
+                洋楽HipHopからK-popまで、幅広いジャンルを踊ります。</p>
+            <img class="logo_right sp" src="images/logo_pink.png" alt="">
+        </div>
+        <img class="logo_right pc" src="images/logo_pink.png" alt="">
     </section>
     <section id="activity">
-        <div class="wrapper">
+         <!--PC-->
+        <div class="wrapper pc">
             <h2>Activities</h2>
-            <div class="box">
-                <div class="activity">
-                    <div class="act">
-                        <h3 class="pink">Summer<br>Movie<br>Collection</h3>
-                        <div class="white-box">
-                            <h3 class="white">Summer<br>Movie<br>Collection</h3>
-                            <img src="images/summer-1.png" alt="">
+            <div class="box pc">
+                <div class="activity pc">
+                    <div class="act pc">
+                        <h3 class="pink pc">Summer<br>Movie<br>Collection</h3>
+                        <div class="white-box pc">
+                            <h3 class="white pc">Summer<br>Movie<br>Collection</h3>
+                            <img class="pc" src="images/summer-1.png" alt="">
                         </div>
                     </div>
-                    <div class="side-photo">
-                        <img class="side-1" src="images/summer-2.png" alt="">
-                        <img src="images/summer-3.png" alt="">
+                    <div class="side-photo pc">
+                        <img class="side-1 pc" src="images/summer-2.png" alt="">
+                        <img class="pc" src="images/summer-3.png" alt="">
                     </div>
                 </div>
-                <p class="right-text">1年生が入会して新体制最初の楽曲です。照明が綺麗なスタジオで撮影し、Youtubeにアップロードします！</p>    
+                <p class="right-text pc">1年生が入会して新体制最初の楽曲です。照明が綺麗なスタジオで撮影し、Youtubeにアップロードします！</p>    
             </div>
 
             <div class="box">
@@ -103,13 +132,44 @@
                 <p class="right-text">ロームシアター京都をお借りして、自主公演を行います。2年生の引退公演になります。</p>
             </div>
         </div>
+        <!--SP-->
+        <div class="sp-wrapper sp">
+            <h2>Activities</h2>
+            <div class="each_activity">
+                <img src="images/summer-sp-1.png" alt="">
+                <div class="horizontal">
+                    <img src="images/summer-sp-2.png" alt="">
+                    <img src="images/summer-sp-3.png" alt="">
+                </div>
+                <h3>Summer Movie Collection</h3>
+                <p>1年生が入会して新体制最初の楽曲です。照明が綺麗なスタジオで撮影し、Youtubeにアップロードします！</p>
+            </div>  
+            <div class="each_activity">
+                <img src="images/nf-sp-1.png" alt="">
+                <div class="horizontal">
+                    <img src="images/nf-sp-2.png" alt="">
+                    <img src="images/nf-sp-3.png" alt="">
+                </div>
+                <h3>November Festival</h3>
+                <p>京都大学の学祭にステージ出演します！<br>出演前はとても緊張しますが、最終楽しいです！</p>
+            </div> 
+            <div class="each_activity">
+                <img src="images/spring-sp-1.png" alt="">
+                <div class="horizontal">
+                    <img src="images/spring-sp-2.png" alt="">
+                    <img src="images/spring-sp-3.png" alt="">
+                </div>
+                <h3>Spring Inviting Collection</h3>
+                <p>ロームシアター京都をお借りして、自主公演を行います。2年生の引退公演になります。</p>
+            </div>  
+        </div>
     </section>
 
     <section id="features">
-        <div class="wrapper">
+        <!--PC-->
+        <div class="wrapper pc">
             <div class="feature">
                 <h2>Features</h2>
-
                 <div class="slider">
                     <div>
                         <div class="slide-box">
@@ -143,56 +203,96 @@
             </div>
             <img class="logo_left" src="images/logo_pink.png" alt="">
         </div>
+        <!--SP-->
+        <div class="sp-wrapper sp">
+            <h2 class="sp">Features</h2>
+                <div class="slider">
+                    <div>
+                        <div class="slide-box">
+                            <h3>＃未経験歓迎</h3>
+                            <p>未経験歓迎！メンバーの約8割がダンス未経験から始めました。<br><br>
+                                過去には、新体操や器械体操の経験があるメンバーが、新体操をダンスに取り入れた新ジャンルを開拓するなど、さまざまに活躍しています。<br><br><br>
+                                初心者でも安心して参加できます！</p>
+                        </div>
+                        <img class="slide-img" src="images/sp-slider-1.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="slide-box">
+                            <h3>＃京大女子限定</h3>
+                            <p>プティカプメンバーは全員京大女子！<br><br>
+                                恋愛トラブルで退会する心配や、他大学との授業や課題、忙しさの差を気にする必要がありません。学部の友達や先輩との繋がりも作れます！安心して活動できる環境です。</p>
+                        </div>
+                        <img class="slide-img" src="images/sp-slider-2.png" alt="">
+                    </div>
+
+                    <div>
+                        <div class="slide-box">
+                            <h3>＃幅広いジャンル</h3>
+                            <p>幅広いジャンルのダンスを楽しめます！<br><br>
+                                通常のサークルでは、人数が多いため1つのジャンルに特化します。しかし、当サークルは20人と少人数制をとっているため、1人何ジャンル、何曲も参加でき、様々なスタイルを楽しめます。<br><br><br>
+                                特に、コピーはK-popからジャニーズまで、オリジナル振り付けも洋楽Hiphopから踊ってみた系まで様々です！</p>
+                        </div>
+                        <img class="slide-img" src="images/sp-slider-3.png" alt="">
+                    </div>
+                </div>        
+            </div>
+            <img class="logo_left sp sp-logo_left" src="images/logo_pink.png" alt="">
+        </div>
+
     </section>
     <section id="info">
         <div class="wrapper">
-            <div class="head">
+            <!--PC-->
+            <div class="head pc">
                 <div class="container">
                     <p class="circle-text"><span>I</span><span>n</span><span>f</span><span>o</span><span>r</span></p>
                 </div>
                 <p class="left">mation</p>
             </div>
-            
+
+            <!--SP-->
+            <h2 class="sp">Information</h2>
             <div class="events">
                 <div class="event">
                     <p class="date">04.07(sat)</p>
-                    <p>体験会①　@中央青少年活動センター</p>
+                    <p class="content">体験会①　@中央青少年活動センター</p>
                 </div>
                 <div class="event">
                     <p class="date">04.10(wed)</p>
-                    <p>ご飯会①　@大学付近</p>
+                    <p class="content">ご飯会①　@大学付近</p>
                 </div>
                 <div class="event">
                     <p class="date">04.11(thu)</p>
-                    <p>体験会② 　@北青少年活動センター</p>
+                    <p class="content">体験会② 　@北青少年活動センター</p>
                 </div>
                 <div class="event">
                     <p class="date">04.12(fri)</p>
-                    <p>zoom説明会 　@オンライン</p>
+                    <p class="content">zoom説明会 　@オンライン</p>
                 </div>
                 <div class="event">
                     <p class="date">04.15(mon)</p>
-                    <p>ご飯会②　@大学付近</p>
+                    <p class="content">ご飯会②　@大学付近</p>
                 </div>
                 <div class="event">
                     <p class="date">04.16(tue)</p>
-                    <p>体験会③　@北青少年活動センター</p>
+                    <p class="content">体験会③　@北青少年活動センター</p>
                 </div>
                 <div class="event">
                     <p class="date">04.17(wed)</p>
-                    <p>zoom説明会　@オンライン</p>
+                    <p class="content">zoom説明会　@オンライン</p>
                 </div>
                 <div class="event">
                     <p class="date">04.19(fri)</p>
-                    <p>ご飯会③　@大学付近</p>
+                    <p class="content">ご飯会③　@大学付近</p>
                 </div>
                 <div class="event">
                     <p class="date">04.21(sat)</p>
-                    <p>体験会④　@中央青少年活動センター</p>
+                    <p class="content">体験会④　@中央青少年活動センター</p>
                 </div>
                 <div class="event">
                     <p class="date">04.23(tue)</p>
-                    <p>新歓公演　@北青少年活動センター</p>
+                    <p class="content">新歓公演　@北青少年活動センター</p>
                 </div>
             </div>
             <div class="button">
@@ -209,7 +309,7 @@
             <div class="wrapper">
                 <div>
                     <h4>PetitCaprice</h4>
-                    <p>SNSはこちら！</p>
+                    <p class="pc">SNSはこちら！</p>
                     <div class="sns">
                         <a href="https://twitter.com/petit_caprice_m"><img src="images/sns-1.png" alt=""></a>
                         <a href="https://www.instagram.com/petit_caprice_members/"><img src="images/sns-2.png" alt=""></a>
@@ -228,7 +328,7 @@
                                 　　　　　土（日）10:00~13:00 <br>
                                 　　　　　週2~3回程度</p>
                             <p>規模：20人程度<br>
-                                年会費：3000円（別途衣装代、ジャージ代必要）</p>
+                                年会費：3000円<br class="sp">（別途衣装代、ジャージ代必要）</p>
                         </div>
                 </div>
             </div>
